@@ -48,12 +48,12 @@ public class Lesson_Two {
             System.out.println();     // необходим для перевода значени "y"  на новую строку
         }
 //endregion
-        //region Task5
+        //region Task5  **
         for (int i = 0; i < arrayFind.length; i++) {
             Arrays.sort(arrayFind);
 
         }
         System.out.println("min number :" + arrayFind[0] + "\nmax number :" + arrayFind[arrayFind.length - 1]);
-//endregion
+//endregion**
     }
 }
